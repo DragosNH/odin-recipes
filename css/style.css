@@ -1,0 +1,10 @@
+:root{
+    /* --- Colors --- */
+    --blue: #07407b;
+    --orange: #f7931e;
+    --white: #fafafa;
+
+    /* --- Fonts --- */
+    --roboto: "Roboto";
+    --playfair: "Playfair";
+}
