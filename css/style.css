@@ -1,10 +1,15 @@
 :root{
     /* --- Colors --- */
-    --blue: #07407b;
-    --orange: #f7931e;
-    --white: #fafafa;
+    --blue: #07407b; /* 60% */
+    --orange: #f7931e; /* 30% */
+    --white: #fafafa; /* 10% */
 
     /* --- Fonts --- */
     --roboto: "Roboto";
     --playfair: "Playfair";
+}
+
+body{
+    background-color: var(--blue);
+    color: var(--orange);
 }
