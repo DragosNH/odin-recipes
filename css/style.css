@@ -17,6 +17,8 @@ body{
     font-family: var(--playfair);
 }
 
+
+/* ------ Navigation ------ */
 .navbar ul{
     display: flex;
     flex-direction: row;
@@ -43,10 +45,35 @@ body{
     text-decoration: underline;
 }
 
-
+/* ------ Headers ------ */
 h1,h2,h3{
     color: var(--white);
     font-family: var(--roboto);
+}
+
+
+/* ------ Container ------ */
+
+.container{
+    display: flex;
+    margin: 50px;
+}
+
+.header{
+    flex-shrink: 2;
+}
+
+.ingredients{
+    flex-grow: 2;
+}
+
+.steps{
+    flex-shrink: 3;
+
+}
+
+img{
+    width: 500px;
 }
 
 li::marker{
