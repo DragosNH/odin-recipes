@@ -61,6 +61,7 @@ h3 {
 
 .container {
     display: flex;
+    flex-direction: column;
     margin: 50px;
 }
 
@@ -94,15 +95,29 @@ li::marker {
 
 @media (max-width: 768px) {
     .navbar ul {
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 15px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar ul {
         flex-direction: column;
         width: 100%;
     }
 
-    .nav-item{
-        margin: 15px;
-    }
-    
-    .container {
-        flex-wrap: wrap;
+    img {
+        width: 350px;
     }
 }
